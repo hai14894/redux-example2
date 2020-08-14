@@ -11,3 +11,9 @@ export const decrement = (number) =>{
         payload: number
     }
 }
+
+export const loggedIn = () =>{
+    return {
+        type: 'SIGN_IN'
+    }
+}
